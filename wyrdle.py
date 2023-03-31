@@ -1,6 +1,6 @@
-guess = input("Guess a word"):
+guess = input("Guess a word")
 
-if guess === "SNAKE":
+if guess == "SNAKE":
     print("Correct")
 
 else:
