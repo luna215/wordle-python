@@ -1,7 +1,9 @@
-guess = input("Guess a word")
 
-if guess == "SNAKE":
-    print("Correct")
+for guess_num in range(1, 7):
+    guess = input("Guess a word").upper()
 
-else:
-    print("Wrong")
+    if guess == "SNAKE":
+        print("Correct")
+
+    else:
+        print("Wrong")
